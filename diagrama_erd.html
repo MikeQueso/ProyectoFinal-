@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diagrama ERD</title>
+  <style>
+    /* Eliminar espacios y asegurar que el mapa use toda la pantalla */
+    * { 
+      box-sizing: border-box; 
+      margin: 0; 
+      padding: 0; 
+    }
+    body, html {
+      width: 100%;
+      height: 100%;
+      overflow: hidden; /* Evita barras de desplazamiento externas */
+      background: white;
+    }
+    .diagram-container {
+      width: 100vw;
+      height: 100vh;
+      overflow: auto; /* Permite scroll solo si el mapa es muy grande */
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    /* Estilo específico para el contenido del gráfico */
+    .mxgraph {
+      max-width: none;
+    }
+  </style>
+</head>
+<body>
+
+  <main class="diagram-container">
+    <div class="mxgraph" style="max-width:100%;border:none;">
+      <div class="mxgraph" style="max-width:100%;border:1px solid transparent;border-radius:0px; padding:0px;">
+        <div class="mxconst" style="display:none;">{"highlight":"#0000ff","nav":true,"checkImageSize":true,"resize":true,"toolbar":"zoom layers tags","edit":"https://app.diagrams.net/","xml":"..."}</div>
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>
